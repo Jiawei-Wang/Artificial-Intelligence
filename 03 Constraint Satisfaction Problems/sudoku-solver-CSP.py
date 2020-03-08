@@ -9,7 +9,6 @@
 # 3. Prints out the answer with beautiful format
 """
 
-
 # Initialize the board
 easy_puzzle = [
     [6, 0, 8, 7, 0, 2, 1, 0, 0],
@@ -50,7 +49,6 @@ def print_board(Board):
                 print(Board[i][j])
             else:
                 print(str(Board[i][j]) + " ", end="")
-
 
 
 # Find cells without value
